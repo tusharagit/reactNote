@@ -1,0 +1,5 @@
+{
+  "AppSyncApiName": "noteapplication",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false
+}

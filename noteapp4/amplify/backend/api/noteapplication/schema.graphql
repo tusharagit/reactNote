@@ -1,0 +1,5 @@
+type Mynotes @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  notetitle: String
+  notedata: String
+}
