@@ -4,6 +4,25 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+### AWS Amplify
+
+npx create-react-app noteappnew
+npm i @aws-amplify/ui-react aws-amplify --save
+npx amplify-app@latest
+.
+create app in aws amplify --> follow instruction
+create data model --> follow instruction
+.
+//if amplify app is not created//
+amplify codegen models
+amplify status
+amplify add auth
+amplify api update
+amplify push
+.
+npm install -g @aws-amplify/cli --save
+
+
 In the project directory, you can run:
 
 ### `npm start`
